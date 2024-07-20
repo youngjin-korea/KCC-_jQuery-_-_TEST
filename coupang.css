@@ -1,0 +1,86 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  min-width: 40rem;
+  margin: 0;
+}
+h2 {
+  margin-bottom: 1rem;
+}
+/* 기본설정 */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  padding: 0 0.5rem;
+}
+#procedure {
+  display: flex;
+}
+#procedure li {
+  padding: 0 0.5rem;
+}
+#procedure li:nth-child(2) {
+  font-weight: bold;
+  color: green;
+}
+/* 헤더쪽 완 */
+main {
+  display: flex;
+  padding: 0 0.5rem;
+  gap: 1rem;
+}
+#product-list {
+  flex: 3;
+}
+aside {
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: 50%;
+}
+aside h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+aside > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+}
+aside > p {
+  border-top: 1px solid black;
+  padding-top: 0.7rem;
+}
+#purchaseBtn {
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 0px;
+  border-radius: 0.5rem;
+  background-color: rgb(61, 172, 220);
+}
+#purchaseBtn:hover {
+  font-size: 1.3rem;
+}
+.product h2,
+p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.product {
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
